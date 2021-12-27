@@ -1,3 +1,4 @@
+# Done as a part of EECS 545 (University of Michigan, Ann Arbor)
 From scratch implementation for SHAPLEY VALUES, KERNEL SHAP and DEEP SHAP, following the ["A Unified Approach to Interpreting Model Predictions"](https://proceedings.neurips.cc/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf) reserach paper.
 # Challenges
 For all 3 algorithms, we found incporporating missingness particularly challenging.
