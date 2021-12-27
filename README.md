@@ -11,9 +11,9 @@ XGBoost
 <img src="https://user-images.githubusercontent.com/16356237/147423198-5c000073-3164-41c7-ad07-0fe14221cdfa.PNG" alt="third">
 
 ## Deep SHAP
-MNIST
+
 <img src="https://user-images.githubusercontent.com/16356237/147423204-6e2bcd4d-8b8e-4969-b2f1-413758fae03d.PNG" alt="fourth">
 
-Fashion MNIST
+
 <img src="https://user-images.githubusercontent.com/16356237/147423212-d16e4d28-ee0d-4fda-8600-a81c0312ce9e.PNG" alt="fifth">
 
