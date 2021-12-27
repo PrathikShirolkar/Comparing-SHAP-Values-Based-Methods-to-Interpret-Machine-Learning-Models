@@ -7,7 +7,7 @@ Since model architecture needs to be changes for dropping a variable, the agorit
 NOTE: For Shapley values, even after following the formulae mentioned in the paper, we couldnt get the the scale of the shapley values right (as can be seen in the plots y axis). But the relative ratio of each shapley values are consistent with that of expected.
 
 # Results
-Comparing implementation values with that of python's shap library
+Comparing implementation values with that of [python's shap library](https://shap.readthedocs.io/en/latest/index.html)
 
 ## SHAPLEY Values
 <img src="https://user-images.githubusercontent.com/16356237/147423000-b4dcde52-7559-43e1-b677-de1d22eb91a0.PNG" alt="first">
