@@ -1,4 +1,4 @@
-From scratch implementation for SHAPLEY VALUES, KERNEL SHAP and DEEP SHAP, following the "A Unified Approach to Interpreting Model Predictions" reserach paper.
+From scratch implementation for SHAPLEY VALUES, KERNEL SHAP and DEEP SHAP, following the ["A Unified Approach to Interpreting Model Predictions"](https://proceedings.neurips.cc/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf) reserach paper.
 # Challenges
 For all 3 algorithms, we found incporporating missingness particularly challenging.
 Since model architecture needs to be changes for dropping a variable, the agorithms emulates missingness, by passing a bunch of background values for features that need to be dropped, and taking the expectation of the final predictions.
