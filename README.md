@@ -1,4 +1,9 @@
 From scratch implementation for SHAPLEY VALUES, KERNEL SHAP and DEEP SHAP.
+# Challenges
+For all 3 algorithms, we found incporporating missingness particularly challenging.
+Since model architecture needs to be changes for dropping a variable, the agorithms emulates missingness, by passing a bunch of background values for features that need to be dropped, and taking the expectation of the final predictions.
+
+NOTE: For Shapley values, even after following the formulae mentioned in the paper, we couldnt get the the scale of the shapley values right (as can be seen in the plots y axis). But the relative ratio of each shapley values are consistent with that of expected.
 
 # Results
 Comparing implementation values with that of python's shap library
